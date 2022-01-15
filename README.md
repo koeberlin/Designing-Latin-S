@@ -1,32 +1,33 @@
-# Designing Latin S
+# Diseño de Latin S
 
-With [Latin S](https://github.com/koeberlin/Latin-Character-Sets) I proposed a new standard Latin character set that supports more than the European languages.
-Some of the additional characters might be unknown to type designers though, so here’s a closer look.
+Con [Latin S](https://github.com/koeberlin/Latin-Character-Sets) propuse un nuevo conjunto de caracteres latinos estándar que admite más que las lenguas europeas.
+Sin embargo, algunos de los caracteres adicionales pueden ser desconocidos para los diseñadores de tipos, así que aquí hay una mirada en detalle.
 
-## Overview
-Additional characters to the common practice are marked green (currency symbols yellow, and the red ones might be omitted):
+## Resumen
+Los caracteres adicionales a la práctica común están marcados en verde (los símbolos monetarios en amarillo, y los rojos podrían omitirse):
 
-![LatinS glyph set overview](img/LatinS.png)
+![Visión general del conjunto de glifos LatinS](img/LatinS.png)
 
-That makes about 80 additional glyphs – which serve more than 200 million addiotional speakers!
+Esto hace que haya unos 80 glifos adicionales, que sirven a más de 200 millones de hablantes adicionales.
 
-![LatinS, additional characters](img/LatinS_additionalChars.png)
+![LatinS, caracteres adicionales](img/LatinS_additionalChars.png)
 
-The example images below show the glyphs as sans serif ([Pangea Text](https://fontwerk.com/fonts/pangea-text)) and serif ([Brill](https://brill.com/page/BrillFont/brill-typeface)) designs.
+Las siguientes imágenes de ejemplo muestran los glifos como diseños sans serif ([Pangea Text](https://fontwerk.com/fonts/pangea-text)) y serif ([Brill](https://brill.com/page/BrillFont/brill-typeface)).
 
 ## ◌̣
-![dotbelowcomb](img/01_dotbelowcomb.png)
+#[dotbelowcomb](img/01_dotbelowcomb.png)
+
 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
 | ̣ | 0323 | dotbelowcomb |
 
-Ok, let’s start with an accent. You probably already have ◌̇ ([/dotaccentcomb](https://codepoints.net/U+0307)), so you just need to duplicate it and move the outline below the baseline.
+Bien, empecemos con un acento. Probablemente ya tengas ◌̇ ([/dotaccentcomb](https://codepoints.net/U+0307)), así que solo tienes que duplicarlo y mover el contorno por debajo de la línea de base.
 
 ## ẠḄḌẸḤỊṆỌṢỤẒ ạḅḍẹḥịṇọṣụẓ
-![Composite letters with dot below](img/02_dotbelow_Composites.png)
+![Letras compuestas con Punto Debajo (dot below)](img/02_dotbelow_Composites.png)
 
-<details><summary>Show character table</summary>
+<details><summary>Mostrar tabla de caracteres</summary>
 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
@@ -55,12 +56,12 @@ Ok, let’s start with an accent. You probably already have ◌̇ ([/dotaccentco
 
 </details>
 
-Now you can easily create these ones!
+¡Ahora puedes hacer estos otros!
 
 ## ǍẼḠǦḦǏṄǑṖǓẌỲỸȲ/Jacute ǎẽḡǧḧǐṅǒṗǔẍỳỹȳ/jacute
-![Composite letters with several different accents](img/03_Composites.png)
+![Letras compuestas con varios diacríticos diferentes](img/03_Composites.png)
 
-<details><summary>Show character table</summary>
+<details><summary>Mostrar tabla de caracteres</summary>
 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
@@ -96,7 +97,7 @@ Now you can easily create these ones!
 |  | None | j.latnNLD |
 </details>
 
-You already have all the base letters, you already have the accents, now compose these!
+Ya tienes todas las letras base, también los acentos, ¡ahora a componerlos!
 
 ## ʼʻ
 ![Quotes](img/04_quotes.png)
@@ -106,22 +107,22 @@ You already have all the base letters, you already have the accents, now compose
 | ʼ | 02BC | uni02BC |
 | ʻ | 02BB | uni02BB |
 
-Just duplicate /quoteleft/quoteright – done! 
+Simplemente duplicar /quoteleft/quoteright – ¡listo! 
 
-Congrats, you already completed more than 60% of the additional glyphs! 🎉
+felicitaciones, ya completaste más del 60% de los glifos adicionales! 🎉
 
 ## Ɲɲ
-![N with hook](img/05_Nhook.png)
+![N con hook](img/05_Nhook.png)
 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
 | Ɲ | 019D | uni019D |
 | ɲ | 0272 | uni0272 |
 
-If your /N and /J are ready, just combine those two.
+si tu /N y /J están listo, combínalas.
 
 ## Ʌʌ
-![Turned V](img/06_turnedV.png)
+![V invertida](img/06_turnedV.png)
 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
@@ -129,20 +130,20 @@ If your /N and /J are ready, just combine those two.
 | ʌ | 028C | uni028C |
 
 
-You aready have these glyphs, only turned. 🙃
+Estos ya los tienes, pero invertidos. 🙃
 
 ## Ɔɔ
-![Open O](img/07_openO.png)
+![O abierta](img/07_openO.png)
 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
 | Ɔ | 0186 | uni0186 |
 | ɔ | 0254 | uni0254 |
 
-Turning /C and /c might do the trick here, too!
+/C invertida y /c deberían hacer el truco.
 
 ## Ɛɛ
-![Open E](img/08_openE.png)
+![E Abierta](img/08_openE.png)
 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
@@ -150,17 +151,17 @@ Turning /C and /c might do the trick here, too!
 | ɛ | 025B | uni025B |
 
 
-Numeral 3 might be a good starting point for these, or you re-use the Cyrillic letters Зз ([/Ze](https://codepoints.net/U+0417) [/ze](https://codepoints.net/U+0437)) or the Greek ε ([/epsilon](https://codepoints.net/U+03B5))
+Número 3 es un buen punto de partida para este, o puedes reciclar las letras Зз Cirílico.  ([/Ze](https://codepoints.net/U+0417) [/ze](https://codepoints.net/U+0437)) o la griega ε ([/epsilon](https://codepoints.net/U+03B5))
 
 ## Ǝǝ
-![Reversed E](img/09_Ereversed.png)
+![E reflejada](img/09_Ereversed.png)
 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
 | Ǝ | 018E | uni018E |
 | ǝ | 01DD | uni01DD |
 
-Mirroring /E and turning /e will probably all you need to do about these two!
+/E reflejada y la e /e dada vuelta, debería ser todo lo que necesitas para esta dos.
 
 ## Ɨɨ
 ![i with stroke](img/10_istroke.png)
@@ -170,10 +171,10 @@ Mirroring /E and turning /e will probably all you need to do about these two!
 | Ɨ | 0197 | uni0197 |
 | ɨ | 0268 | uni0268 |
 
-Just add strokes to /I and /i. Maybe have a look at your [/Eth](https://codepoints.net/U+00D0) and [/dcroat](https://codepoints.net/U+0111).
+Agrégale las barras (strokes) a /I y a /i. Quizás debas mirar tu [/Eth](https://codepoints.net/U+00D0) and [/dcroat](https://codepoints.net/U+0111).
 
 ## ƁƊƘƳ ɓɗƙƴ
-![Letters with hooks](img/11_hooks.png)
+![Letras con hooks](img/11_hooks.png)
 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
@@ -188,11 +189,11 @@ Just add strokes to /I and /i. Maybe have a look at your [/Eth](https://codepoin
 | ɲ | 0272 | uni0272 |
 | ƴ | 01B4 | uni01B4 |
 
-Now for some curls, and you’re nearly done!
+Ahora algunos rulos, ya casi terminamos!
 
 ## ẞƏə
 
-![Uppercase Eszett & Schwa](img/00_Germandbls_Schwa.png)
+![Eszett y Schwa mayúsculas](img/00_Germandbls_Schwa.png)
 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
@@ -200,11 +201,11 @@ Now for some curls, and you’re nearly done!
 | Ə | 018F | uni018F |
 | ə | 0259 | uni0259 |
 
-Uppercase Eszett and the Latin Schwas are already included in many fonts but I added them for the sake of completeness.
+Eszett mayúsculas y los Schwas latinos ya están incluídos en algunas fuentes pero los vamos agregar en nombre de la totalidad.
 
-ə is a mirrored /e, the uppercase variant is basically the same, only scaled. If you already designed the Cyrillic [Ә](https://codepoints.net/U+04D8) & [ә](https://codepoints.net/U+04D9): They’re identical.
+ə es una /e reflejada, y la mayúsculas es basicamente la misma, pero escalada, deberías cuidar el grosor de la línea nada más. si ya diseñaste el cirílico [Ә](https://codepoints.net/U+04D8) y [ә](https://codepoints.net/U+04D9): ya está, porque son idénticas.
 
-On Typefacts I wrote some more about the [German Capital Letter Eszett](https://typefacts.com/en/blog/the-german-capital-letter-eszett).
+En el sitio web Typefacts escribí un poco más sobre las [German Capital Letter Eszett](https://typefacts.com/en/blog/the-german-capital-letter-eszett).
 
 
 ## Ŋ
@@ -214,13 +215,12 @@ On Typefacts I wrote some more about the [German Capital Letter Eszett](https://
 | --- | --- | --- |
 | Ŋ | 014A | Eng |
 
-There are two shape variants for the uppercase /Eng: One preferred in Sami languages (based on the uppercase /N) and one preferred in Afrikan languages (looking like the lowercase /n).
-(Brill even has three different shapes, see image)
+Hay dos variantes para el /Eng: Una que es preferida en las lenguas Sami (basada en la /N mayúscula) y una que se prefiere en las lenguas Africanas (que se ve como la /n minúscula con su grosor ajustado)
+(Brill incluso tiene tres formas diferentes, como se ve en la imagen)
 
-I’d recommend the latter one as default since it is used by many more speakers than the Sami shape. 
+Yo recomiendo dejar la última por defecto (basada en /n), ya que es usada por la mayor cantidad de hablantes que la forma usada en Sami (basada en /N). 
 
-You might want to draw both shapes thought and substitute them in the `locl`
-feature, see [Latin Character Sets > Eng](https://github.com/koeberlin/Latin-Character-Sets#eng-%C5%8B).
+Podrías dibujar ambas y luego sustituírlas con opentype usando la característica `locl`, mira [Latin Character Sets > Eng](https://github.com/koeberlin/Latin-Character-Sets#eng-%C5%8B).
 
 ## Ŀŀ
 
@@ -229,7 +229,7 @@ feature, see [Latin Character Sets > Eng](https://github.com/koeberlin/Latin-Cha
 | Ŀ | 013F | Ldot |
 | ŀ | 0140 | ldot |
 
-These only occur in Catalan in the combinations /L/periodcentered/L and /l/periodcentered/l. I recommend using unencoded glyphs instead, in combination with the `locl` feature, see [Latin Character Sets > L_periodcentered.latnCAT](https://github.com/koeberlin/Latin-Character-Sets#l_periodcenteredlatncatl_periodcenteredlatncat).
+Estas solo se usan en Catalán en las combinaciones /L/periodcentered/L y /l/periodcentered/l. Yo recomiendo usar glifos sin codificar (unencoded), en combinación con la característica`locl`, mira [Latin Character Sets > L_periodcentered.latnCAT](https://github.com/koeberlin/Latin-Character-Sets#l_periodcenteredlatncatl_periodcenteredlatncat).
 
 ## ₵₡₲₺₼₦
 ![Currency symbols](img/13_currency.png)
@@ -244,7 +244,7 @@ These only occur in Catalan in the combinations /L/periodcentered/L and /l/perio
 | ₦ | 20A6 | uni20A6 |
 
 
-If your font supports certain languages, you might consider also supporting the  currency symbols of the countries where they are spoken:
+Si ya estás soportando estas lenguas, deberías considerar los monetarios de los países donde son habladas:
 
 * ₵: Cedi (Ghana)
 * ₡: Colón (Costa Rica)
@@ -265,10 +265,10 @@ If your font supports certain languages, you might consider also supporting the 
 | ŉ | 0149 | napostrophe |
 | ſ | 017F | longs |
 
-You won’t necessarily need these glyphs from Unicode range Latin Extended A.
+Estos últimos glifos no son imprescindibles para el rango Unicode Latin Extended A.
 
-* Ĳ, ĳ: If you want to draw these ligatures, I recommend using unencoded glyphs in combination with OpenType features
-* Ŧ, ŧ are needed for Sami languages only (≈25,000 speakers)
-* ĸ is deprecated
-* ŉ is deprecated
-* ſ is an historical form 
+* Ĳ, ĳ: si quieres agregar estas ligaduras, te recomiendo usar glifos sin codificar y combinarlas con OpenType features
+* Ŧ, ŧ solo se necesitan para las lenguas Sami (≈25,000 speakers)
+* ĸ es obsoleto
+* ŉ es obsoleto
+* ſ es una forma histórica 
