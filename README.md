@@ -272,3 +272,27 @@ You won’t necessarily need these glyphs from Unicode range Latin Extended A.
 * ĸ is deprecated
 * ŉ is deprecated
 * ſ is an historical form 
+
+## Kerning
+In most of the cases you can reuse kerning classes for your existing character set, eg.:
+
+| Char | Left Kern Group | Right Kern Group | 
+| --- | --- | --- |
+| Ʌ | A | A |
+
+## Kern ƁƊ
+| Char | Left Kern Group | Right Kern Group | 
+| --- | --- | --- |
+| Ɓ | Hook | B |
+| Ɗ | Hook | O |
+
+The minimum Kerning:
+
+| Kerning Pair | Example Word | Translation | 
+| --- | --- | --- |
+| AƁ | GÁAƁÀA | the shore |
+| KƁ | - | - |
+| LƁ | - | - |
+
+![kerning](img/kerning_minimum.png)
+
