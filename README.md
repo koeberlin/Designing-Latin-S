@@ -268,10 +268,10 @@ If your font supports certain languages, you might consider also supporting the 
 You won’t necessarily need these glyphs from Unicode range Latin Extended A.
 
 * Ĳ, ĳ: If you want to draw these ligatures, I recommend using unencoded glyphs in combination with OpenType features
-* Ŧ, ŧ are needed for Sami languages only (≈25,000 speakers)
-* ĸ is deprecated
-* ŉ is deprecated
-* ſ is an historical form 
+* Ŧ, ŧ are needed for Sami languages only (≈25,000 speakers) or Balante language in Senegal (≈100,000 speakers)
+* ĸ is a historical letter used in Greenlandic until the 1970s and Labrador Inuttut until the 1980s
+* ŉ is deprecated and shouldn't be used
+* ſ is an historical form of s
 
 ## Kerning
 In most of the cases you can reuse kerning classes for your existing character set, eg.:
