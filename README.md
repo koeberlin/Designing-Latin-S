@@ -202,7 +202,7 @@ Now for some curls, and you’re nearly done!
 
 Uppercase Eszett and the Latin Schwas are already included in many fonts but I added them for the sake of completeness.
 
-ə is a mirrored /e, the uppercase variant is basically the same, only scaled. If you already designed the Cyrillic [Ә](https://codepoints.net/U+04D8) & [ә](https://codepoints.net/U+04D9): They’re identical.
+ə is a turned /e, the uppercase variant is basically the same, only scaled. If you already designed the Cyrillic [Ә](https://codepoints.net/U+04D8) & [ә](https://codepoints.net/U+04D9): They’re identical.
 
 On Typefacts I wrote some more about the [German Capital Letter Eszett](https://typefacts.com/en/blog/the-german-capital-letter-eszett).
 
